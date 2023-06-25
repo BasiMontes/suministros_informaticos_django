@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eliminar proveedores</title>
+</head>
+<body>
+    <p>Formulario para eliminar proveedores</p>
+    <form method="post" style="color: rgb(5, 12, 70);">
+        {% csrf_token %}
+        {{form.as_p}} <br>
+        <button> Eliminar proveedor </button>
+    </form>
+</body>
+</html>
+
